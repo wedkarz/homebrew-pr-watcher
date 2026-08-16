@@ -7,7 +7,7 @@ cask "pr-watcher" do
   desc "macOS menu bar app that tracks GitHub PRs (authored / team / codeowner)"
   homepage "https://github.com/wedkarz/homebrew-pr-watcher"
 
-  depends_on macos: ">= :sonoma" # macOS 14+
+  depends_on macos: :sonoma # macOS 14+
 
   app "PRWatcher.app"
 

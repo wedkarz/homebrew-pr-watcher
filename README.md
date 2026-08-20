@@ -26,6 +26,7 @@ The menu bar shows the same info in 16 pixels:
 ## Install
 
 ```sh
+brew trust --cask wedkarz/pr-watcher/pr-watcher
 brew install --cask wedkarz/pr-watcher/pr-watcher
 ```
 
